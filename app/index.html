@@ -25,7 +25,7 @@
       <div class="header">
        <div class="container">
           <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#">Plan Your Vacation</a></li>
+            <li><a href="#">Plan Your Vacation</a></li>
             <li><a href="#">Learn About Our Cruise Ships</a></li>
             <li><a href="#">Help</a></li>
           </ul>
@@ -34,6 +34,8 @@
       </div>
         
     <!-- Carousel -->
+    <div class="carouselWrapper">
+     
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -55,8 +57,37 @@
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
+    </div>
     <!-- /.carousel -->
+     <!-- Accordian -->
+     <div class="container accordian-position">
+       <div class="accordion pull-right">
+        <div class="acc-container">
+        <div class=" orange"><h3 class="selected">LOREM IPSUM</h3></div>
+        <div class="acc-btn"><h3 class="selected">Accordian 1</h3></div>
+        <div class="acc-content open">
+          <div class="acc-content-inner">
+            <p>Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin </p>
+          </div>
+        </div>
 
+        <div class="acc-btn"><h3>Accordian 2</h3></div>
+        <div class="acc-content">
+          <div class="acc-content-inner">
+            <p>Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin </p>
+          </div>
+        </div>
+
+        <div class="acc-btn"><h3>Accordian 3</h3></div>
+        <div class="acc-content">
+          <div class="acc-content-inner">
+            <p>Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin </p>
+          </div>
+        </div>
+        </div>
+      </div>
+     </div>
+     <!-- end accordian -->
       <!-- Marketing -->
       <div class="marketing">
        <div class="container center">
@@ -88,7 +119,7 @@
       <div class="bottomContent">
        <div class="container">
          <div class="row">
-            <div class="col-md-3"><h4>Link Group Header</h4>
+            <div class="col-md-2"><h4>Link Group Header</h4>
              <ul class="list-unstyled">
                <a href="#"><li>Link 1</li></a>
                <a href="#"><li>Link 2</li></a>
@@ -98,7 +129,7 @@
                <a href="#"><li>Link 6</li></a>
              </ul>
             </div>
-            <div class="col-md-3"><h4>Link Group Header</h4>
+            <div class="col-md-2"><h4>Link Group Header</h4>
              <ul class="list-unstyled">
                <a href="#"><li>Link 1</li></a>
                <a href="#"><li>Link 2</li></a>
@@ -108,7 +139,7 @@
                <a href="#"><li>Link 6</li></a>
              </ul>
             </div>
-            <div class="col-md-3"><h4>Link Group Header</h4>
+            <div class="col-md-2"><h4>Link Group Header</h4>
               <ul class="list-unstyled">
                <a href="#"><li>Link 1</li></a>
                <a href="#"><li>Link 2</li></a>
@@ -118,16 +149,28 @@
                <a href="#"><li>Link 6</li></a>
              </ul>
             </div>
-            <div class="col-md-3">
-             <img src="images/newsletter-icon.png">
-
+            <div class="col-md-6">
+               <div class="newsletter">
+                 <p><img style="float: left;" src="images/newsletter-icon.png">
+                 <span>NEWSLETTER SIGNUP</span><br>
+                  Please use email vailidation and add a class for invalid email
+                  </p>
+                  <input type="text" class="form-control" placeholder="Enter a valid email address">
+                  <br><br>
+                  <div class="form-group">
+                      <button type="submit" class="btn btn-default">SIGN UP</button>
+                  </div>
+               </div>
             </div>
         </div>
        </div>
       </div>
       <!-- end of bottom content -->
       <div class="footer">
-      <div class="container"><p> ©Lorem ipsum dolor sit amet, consectetuer adipiscing elit <br> Privacy Policy | Terms and Conditions</p></div>
+      <div class="container">
+        <div class="col-md-10"><p> ©Lorem ipsum dolor sit amet, consectetuer adipiscing elit <br> Privacy Policy | Terms and Conditions</p></div>
+        <div class="col-md-2"><img src="images/footer-logo.png" alt=""></div>
+      </div>
       </div>
 
 

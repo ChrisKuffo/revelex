@@ -22,6 +22,7 @@ h3 {
 }
 h4 {
   font-size: 14px;
+  font-weight: bold;
 }
 .center {
   margin: 0 auto;
@@ -31,6 +32,38 @@ h4 {
   border-top: 5px solid #005579;
   padding-bottom: 94px;
 }
+.newsletter {
+  width: 320px;
+  float: right;
+}
+.newsletter span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0084bd;
+}
+.newsletter input{
+  width: 230px;
+  height: 39px;
+  display: block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  float: right;
+}
+.newsletter button {
+  width: 120px;
+  height: 38px;
+  border-radius: 0px;
+  background-color: #0084bd;
+  float: right;
+  color: #fff;
+  font-weight: bold;
+}
 .features {
   padding-bottom: 100px;
 }
@@ -39,6 +72,8 @@ h4 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
 
 /* Custom page header */
 .header {
@@ -117,6 +152,11 @@ h4 {
   min-height: 240px;
   background-color: #d6d6d6;
 }
+
+.form-group {
+  margin-bottom: 15px;
+  padding-top: 16px;
+}
 /* Custom page footer */
 .footer {
   background-color: #333333;
@@ -126,7 +166,76 @@ h4 {
   border-top: 1px solid #e5e5e5;
 }
 
-/* Supporting marketing content */
+/* Accordian */
+
+.accordian-position {
+  position: relative;
+}
+
+.accordion {
+  margin-top: -500px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+* { 
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+.acc-container {
+  margin: auto 0 auto;
+  overflow:hidden;
+}
+
+.acc-btn { 
+  width:300px;
+  margin:0 auto;
+  padding:15px 25px;
+  cursor:pointer;
+  background:#0084bd;
+  border-bottom:1px solid #fff;
+}
+.acc-btn h3 {
+  color: #fff;
+}
+
+.acc-content {
+  height:0px;
+  width:300px;
+  margin:0 auto;
+  overflow:hidden;
+  background:#2C3E50;
+}
+
+.acc-content-inner {
+  padding:30px;
+  min-height: 180px;
+}
+.acc-content-inner p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.open {
+  height: auto;
+}
+
+.selected {
+  color:#fff;
+  font-weight: bold;
+}
+.orange {
+  background-color: #f39c12;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 25px;
+  cursor: pointer;
+}
 
 
 
