@@ -1,7 +1,8 @@
 console.log('\'Allo \'Allo!');
 
 $(document).ready(function(){
-  var animTime = 300,
+	  'use strict';
+      var animTime = 300,
       clickPolice = false;
   
   $(document).on('touchstart click', '.acc-btn', function(){
@@ -23,3 +24,16 @@ $(document).ready(function(){
   });
   
 });
+
+var $div2 = $('#hidemenu');
+
+  $(document).ready(function() {
+  	    'use strict';
+        $('#showmenu').click(function() {
+                $('.theDiv').slideToggle('fast');
+
+          setTimeout( function(){ $div2.hide(); }, 1000*5);
+        });
+
+         
+    });

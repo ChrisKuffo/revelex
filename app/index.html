@@ -20,19 +20,46 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-
-      <div class="header">
-       <div class="container">
-          <ul class="nav nav-pills pull-right">
+      
+       <!-- Fixed navbar -->
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Plan Your Vacation</a></li>
-            <li><a href="#">Learn About Our Cruise Ships</a></li>
+            <li><a id="showmenu" href="#">Learn About Our Cruise Ships</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-          <h3 class="text-muted"><img src="images/logo.png"></h3>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
-        
+    </div>
+
+    <div class="row-fluid">
+     <div id="hidemenu" class="subMenu theDiv">
+      <div class="container">
+        <ul class="list-inline pull-right">
+          <li>Ship 1</li>
+          <li>Ship 2</li>
+          <li>Ship 3</li>
+          <li>Ship 4</li>
+          <li>Ship 5</li>
+          <li>Ship 6</li>
+          <li>Ship 7</li>
+        </ul>
+      </div>
+     </div> 
+    </div>
     <!-- Carousel -->
     <div class="carouselWrapper">
      
@@ -64,7 +91,9 @@
        <div class="accordion pull-right">
         <div class="acc-container">
         <div class=" orange"><h3 class="selected">LOREM IPSUM</h3></div>
-        <div class="acc-btn"><h3 class="selected">Accordian 1</h3></div>
+        <div class="acc-btn">
+         <h3 class="selected">Accordian 1</h3>
+        </div>
         <div class="acc-content open">
           <div class="acc-content-inner">
             <p>Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin consectetur, elit nisl malesuada Proin sodales, nibh eget sollicitudin </p>
